@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import December21Page from './December21Page';
+import December22Page from './December22Page';
 
 const Home = () => (
   <>
@@ -65,6 +66,7 @@ const App = () => (
       <Route path="/december/:day" element={<DecemberPage />} />
       <Route path="/january/:day" element={<JanuaryPage />} />
       <Route path="/december/21" element={<December21Page />} />
+      <Route path="/december/22" element={<December22Page />} />
     </Routes>
   </Router>
 );
