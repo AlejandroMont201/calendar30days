@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import December21Page from './December21Page';
 import December22Page from './December22Page';
+import December23Page from './December23Page';
 
 const Home = () => (
   <>
@@ -67,6 +68,7 @@ const App = () => (
       <Route path="/january/:day" element={<JanuaryPage />} />
       <Route path="/december/21" element={<December21Page />} />
       <Route path="/december/22" element={<December22Page />} />
+      <Route path="/december/23" element={<December23Page />} />
     </Routes>
   </Router>
 );
