@@ -5,6 +5,7 @@ import './App.css';
 import December21Page from './December21Page';
 import December22Page from './December22Page';
 import December23Page from './December23Page';
+import December24Page from './December24Page';
 
 const Home = () => (
   <>
@@ -69,6 +70,7 @@ const App = () => (
       <Route path="/december/21" element={<December21Page />} />
       <Route path="/december/22" element={<December22Page />} />
       <Route path="/december/23" element={<December23Page />} />
+      <Route path="/december/24" element={<December24Page />} />
     </Routes>
   </Router>
 );
