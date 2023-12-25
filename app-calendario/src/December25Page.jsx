@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 
 const December25Page = () => {
-  const [audio] = useState(new Audio('/audio/navidadsin.mp3'));
+  const [audio] = useState(new Audio('/audio/thecure.mp3'));
 
   useEffect(() => {
     const playAudio = () => {
@@ -40,7 +40,7 @@ const December25Page = () => {
       <h1 className="title">25 de Diciembre, FELIZ NAVIDAD MI AMOR (la primera de nuestra vida)</h1>
       {/* Añadir un elemento de video en bucle infinito */}
       <video width="640" height="360" controls loop>
-        <source src="/video/24diciembre.mp4" type="video/mp4" />
+        <source src="/video/25diciembre.mp4" type="video/mp4" />
         Tu navegador no soporta el tag de video.
       </video>
       
