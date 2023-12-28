@@ -34,6 +34,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.heart:hover {
+  background-color: #ff7b54; /* Cambia el color de fondo al pasar el mouse */
+  transform: scale(1.1); /* Escala el botón al pasar el mouse */
 }
 
 .button-container {
@@ -42,13 +52,13 @@ body {
 }
 
 .december-text {
-  font-family: 'Arial';
+  font-family: 'Kavoon';
   color: green;
   font-size: 0.8em;
 }
 
 .january-text {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Kavoon', sans-serif;
   color: red;
   font-size: 0.8em;
 }
@@ -60,3 +70,4 @@ body {
   margin-bottom: 20px;
   font-size: 3em;
 }
+
