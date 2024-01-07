@@ -19,6 +19,7 @@ import January03Page from './January03Page';
 import January04Page from './January04Page';
 import January05Page from './January05Page';
 import January06Page from './January06Page';
+import January07Page from './January07Page';
 
 
 const Home = () => (
@@ -47,7 +48,7 @@ const JanuaryPage = () => (
 const renderButtons = () => {
   const buttons = [];
 
-  for (let i = 21; i <= 51; i++) {
+  for (let i = 21; i <= 41; i++) {
     const buttonStyle = i % 2 === 0 ? 'purple' : 'blue';
 
     buttons.push(
@@ -98,6 +99,7 @@ const App = () => (
       <Route path="/january/4" element={<January04Page />} />
       <Route path="/january/5" element={<January05Page />} />
       <Route path="/january/6" element={<January06Page />} />
+      <Route path="/january/7" element={<January07Page />} />
     </Routes>
   </Router>
 );
