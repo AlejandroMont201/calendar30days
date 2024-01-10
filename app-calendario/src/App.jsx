@@ -22,7 +22,7 @@ import January06Page from './January06Page';
 import January07Page from './January07Page';
 import January08Page from './January08Page';
 import January09Page from './January09Page';
-
+import January10Page from './January10Page';
 
 const Home = () => (
   <>
@@ -104,6 +104,7 @@ const App = () => (
       <Route path="/january/7" element={<January07Page />} />
       <Route path="/january/8" element={<January08Page />} />
       <Route path="/january/9" element={<January09Page />} />
+      <Route path="/january/10" element={<January10Page />} />
     </Routes>
   </Router>
 );
